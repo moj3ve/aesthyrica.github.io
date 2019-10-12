@@ -1,0 +1,17 @@
+Package: com.spos
+Version: 2.3.1
+Architecture: iphoneos-arm
+Maintainer: Aesthyrica
+Installed-Size: 444
+Depends: mobilesubstrate
+Conflicts: beta.spos
+Filename: debs/com.spos_2.3.1_iphoneos-arm.deb
+Size: 86778
+MD5sum: 3d5ad03d8771a740ce761c8f2bd11aee
+SHA1: 21f07ba7de5c49aba5fcc89586725bb67a7b26cc
+SHA256: 980b14397cd2446ba4a586b3afb47bfca530305fd10e39cc6bc46cf2cc9d7736
+Section: Tweaks
+Description: Unleash Your Spotify Experience!
+Author: Aesthyrica
+Name: Spos
+
