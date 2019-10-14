@@ -16,7 +16,7 @@ mark, audio, video {
   background:transparent;
 }
 
-img[alt*="www.000webhost.com"] {
+img[alt*="https://aesthyrica.github.io/repo/"] {
 	display: none;}
 	
 body {
