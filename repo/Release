@@ -1,8 +1,8 @@
-Origin: aesthyrica's Repo
-Label: aesthyrica's Repo
+Origin: aesthyrica
+Label: aesthyrica
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: aesthyrica's Repo
+Description: The Official Aesthyrica repo
