@@ -1,16 +1,37 @@
-Package: com.spos
-Version: 2.3.1
-Section: Tweaks
-Maintainer: aesthyrica <aesthyrica@gmail.com>
+Package: com.canvasvisualsdl
+Version: 1.0
 Architecture: iphoneos-arm
-Filename: ./debs/com.spos_2.3.1_iphoneos-arm.deb
-Size: 85.948
-MD5sum: 54d20fcfe0c78095c78a4824e1faeca9
-SHA1: 23313819aa1b4b90a6923e1a6880d283aaa3de60
-SHA256: cca556da92e0a86d6245dfa525980a86c2d63bfc4ad149e1d9cb6c3ffdeed87c
-Description: Unleash Your Spotify Experience!
-Name: Spos
+Maintainer: aesthyrica
+Installed-Size: 364
+Depends: mobilesubstrate
+Conflicts: com.spos
+Filename: debs/com.canvasvisualsdl_1.0_iphoneos-arm.deb
+Size: 64812
+MD5sum: e60a58a14dd74a5f64b68579b57ff7ac
+SHA1: eae244d80c461429c2f2ad38912c7a5db8ec51cf
+SHA256: 72ac7021eee9baadd9f174594321e29513922d7f8616e203782719d131302c1e
+Section: Tweaks
+Description: Download Canvas Visuals from Spotify.
 Author: aesthyrica
-SileoDepiction: https://getsposapp.com/sileodepictions/com.spos/depiction.json
-Depiction: https://getsposapp.com/depictions/me.aesthyrica.twttr.3.html
-Icon: https://getsposapp.com/assets/Spos/icon.png
+Name: Canvas Visuals DL
+Depiction: https://aesthyrica.github.io/repo/depiction/web/com.canvasvisualsdl.html
+SileoDepiction: https://aesthyrica.github.io/repo/depiction/native/com.canvasvisualsdl.json
+
+Package: com.spos
+Version: 2.4
+Architecture: iphoneos-arm
+Maintainer: aesthyrica
+Installed-Size: 476
+Depends: mobilesubstrate
+Conflicts: beta.spos
+Filename: debs/com.spos_2.4_iphoneos-arm.deb
+Size: 90330
+MD5sum: 43bf2ff2a96cfd79fab11be61af00c79
+SHA1: 2b78fbec57419c22e84fe6a98efd70fad2a108f4
+SHA256: 063e8fd34ca97915af55e7a5176fde8f67b8b8f28c348f56ea24056d3818b483
+Section: Tweaks
+Description: Unleash Your Spotify Experience!
+Author: aesthyrica
+Name: Spos for Spotify
+Depiction: https://aesthyrica.github.io/repo/depiction/web/com.spos.html
+SileoDepiction: https://aesthyrica.github.io/repo/depiction/native/com.spos.json
