@@ -1,1 +1,1 @@
-Spos for Spotify is a tweak that let's you enable hidden features not released yet!
+Unleash Your Spotify Experience!
