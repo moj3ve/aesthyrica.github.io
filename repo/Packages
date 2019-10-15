@@ -14,6 +14,7 @@ Section: Tweaks
 Description: Download Canvas Visuals from Spotify.
 Author: aesthyrica
 Depiction: https://aesthyrica.github.io/repo/depiction/web/com.canvasvisualsdl.html
+Name: Canvas Visuals DL
 
 Package: com.spos
 Version: 2.4
