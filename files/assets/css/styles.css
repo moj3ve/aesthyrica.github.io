@@ -16,7 +16,7 @@ mark, audio, video {
   background:transparent;
 }
 
-img[alt*="https://aesthyrica.github.io/repo/"] {
+img[alt*="www.000webhost.com"] {
 	display: none;}
 	
 body {
@@ -194,7 +194,7 @@ body {
   -webkit-user-select:text;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   font-family: ".SFNSText-Medium", -apple-system, "Helvetica Neue", "Lucida Grande", sans-serif;
-  background-color: #121212;
+  background-color: #f4f4f4;
   min-font-size: 13px;
   text-align:center;
   font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
@@ -289,7 +289,7 @@ body panel panel-body > table {
 }
 
 body panel panel-body > table > tbody > tr {
-  border-bottom: 0.5px solid #121212;
+  border-bottom: 0.5px solid #cacaca;
 }
 
 body panel panel-body > table > tbody > tr:last-child {
@@ -443,10 +443,5 @@ panel a {
 }
 
 .green-gradient {
-  background: linear-gradient(90deg,#202124, #282C2F) !important;
+  background: linear-gradient(90deg,#30c381, #089e46) !important;
 }
-
-
-
-
-
