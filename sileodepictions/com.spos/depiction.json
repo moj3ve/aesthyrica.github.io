@@ -1,15 +1,9 @@
 {
     "minVersion": "0.1",
-    "tintColor": "#0657bb",
+    "tintColor": "#1DB954",
     "tabs": [
         {
             "views": [
-                {
-                    "title": "SposforSpotify",
-                    "useBottomMargin": false,
-                    "useBoldText": true,
-                    "class": "DepictionSubheaderView"
-                },
                 {
                     "markdown": "Spos for Spotify is a tweak that let's you enable hidden features not released yet!",
                     "useSpacing": true,
