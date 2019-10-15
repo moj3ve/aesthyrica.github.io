@@ -1,6 +1,6 @@
 {
     "minVersion": "0.1",
-    "headerImage": "https://aesthyrica.github.io/assets/Spos/header.png",
+    "headerImage": "https://aesthyrica.github.io/assets/com.spos/header.png",
     "tintColor": "#F4C2D7",
     "tabs": [
         {
@@ -12,13 +12,13 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Showcase",
-                            "url": "https://aesthyrica.github.io/assets/Spos/screenshot1.png",
-                            "fullSizeURL": "https://aesthyrica.github.io/assets/Spos/screenshot1.png"
+                            "url": "https://aesthyrica.github.io/assets/com.spos/01.png",
+                            "fullSizeURL": "https://aesthyrica.github.io/assets/com.spos/01.png"
                         }, 
                         {
                             "accessibilityText": "Showcase",
-                            "url": "https://aesthyrica.github.io/assets/Spos/screenshot2.png",
-                            "fullSizeURL": "https://aesthyrica.github.io/assets/Spos/screenshot2.png"
+                            "url": "https://aesthyrica.github.io/assets/com.spos/02.png",
+                            "fullSizeURL": "https://aesthyrica.github.io/assets/com.spos/02.png"
                         }
                     ],
                     "ipad": {
@@ -27,13 +27,13 @@
                         "screenshots": [
                             {
                                 "accessibilityText": "Showcase",
-                                "url": "https://aesthyrica.github.io/assets/Spos/screenshot1.png?size=640",
-                                "fullSizeURL": "https://aesthyrica.github.io/assets/Spos/screenshot1.png"
+                                "url": "https://aesthyrica.github.io/assets/com.spos/03.png?size=640",
+                                "fullSizeURL": "https://aesthyrica.github.io/assets/com.spos/03.png"
                             },
                             {
                                 "accessibilityText": "Showcase",
-                                "url": "https://aesthyrica.github.io/assets/Spos/screenshot2.png?size=640",
-                                "fullSizeURL": "https://aesthyrica.github.io/assets/Spos/screenshot2.png"
+                                "url": "https://aesthyrica.github.io/assets/com.spos/04.png?size=640",
+                                "fullSizeURL": "https://aesthyrica.github.io/assets/com.spos/04.png"
                             }
                         ],
                         "class": "DepictionScreenshotView"
@@ -41,7 +41,7 @@
                     "class": "DepictionScreenshotsView"
                 },
                 {
-                    "markdown": "\n\n### Instructions\n\n- Download Live Album Artwork by long pressing on it.\r\n- Settings are in Spotify settings. \n\n- \n\n### Features\n\n- Artists & Playlists New UI\r\n- Artwork In Playlists\r\n- Car View Now Playing UI\r\n- Download Live Album Artwork\r\n- Disable Your Library Tab\r\n- Disable Tab Labels\r\n- Disable Genius\r\n- Disable Live Album Artwork\r\n- Disable Screenshot Banner\r\n- Disable Now Playing Bar\r\n- Home Quick Play\r\n- Liked Songs New UI\r\n- Music Import Section\r\n- Now Playing Music Sleep Timer\r\n- Now Playing Bar Improvements\r\n- Podcasts New UI\r\n- Real Shuffle\r\n- Show Statusbar Everywhere\r\n- Voice Search\r\n- What's New Section",
+                    "markdown": "### Instructions\r\n- Download Canvas Visuals by long pressing on them.\r\n- Settings are in Spotify Account settings.\r\n\r\n### Features\r\n- Artists & Playlists New UI\r\n- Artwork In Playlists\r\n- Car View Now Playing UI\r\n- Download Canvas Visuals\r\n- Disable Your Library Tab\r\n- Disable Tab Labels\r\n- Disable Genius\r\n- Disable Canvas Visuals\r\n- Disable Screenshot Banner\r\n- Disable Now Playing Bar\r\n- Home Quick Play\r\n- Liked Songs New UI\r\n- Music Import Section\r\n- Now Playing Music Sleep Timer \r\n- Now Playing Bar Improvements \r\n- Podcasts New UI\r\n- Real Shuffle\r\n- Show Statusbar Everywhere\r\n- Voice Search\r\n- What's New Section",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
