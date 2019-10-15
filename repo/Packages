@@ -14,6 +14,7 @@ Section: Tweaks
 Description: Download Canvas Visuals from Spotify.
 Author: aesthyrica
 Depiction: https://aesthyrica.github.io/repo/depiction/web/com.canvasvisualsdl.html
+Icon: https://getsposapp.com/assets/Spos/icon.png
 Name: Canvas Visuals DL
 
 Package: com.spos
@@ -33,4 +34,5 @@ Description: Unleash Your Spotify Experience!
 Author: aesthyrica
 Depiction: https://aesthyrica.github.io/repo/depiction/web/com.spos.html
 SileoDepiction: https://aesthyrica.github.io/sileodepictions/com.spos/depiction.json
+Icon: https://aesthyrica.github.io/repo/assets/com.spos/icon.png
 Name: Spos for Spotify
