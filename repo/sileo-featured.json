@@ -1,1 +1,2 @@
 {"class": "FeaturedBannersView", "itemSize": "{263, 148}", "itemCornerRadius": 8, "banners": [{"package": "com.canvasvisualsdl", "title": "Canvas Visuals DL", "url": "https://aesthyrica.github.io/repo/assets/com.canvasvisualsdl/banner.png", "hideShadow": "false"}]}
+{"class": "FeaturedBannersView", "itemSize": "{263, 148}", "itemCornerRadius": 8, "banners": [{"package": "com.spos", "title": "Spos for Spotify", "url": "https://aesthyrica.github.io/repo/assets/com.spos/banner.png", "hideShadow": "false"}]}
