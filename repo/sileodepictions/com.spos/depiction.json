@@ -1,0 +1,119 @@
+{
+    "minVersion": "0.1",
+    "headerImage": "https://aesthyrica.github.io/assets/Spos/header.png",
+    "tintColor": "#F4C2D7",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "views": [
+                {
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 275.41333333333336}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Showcase",
+                            "url": "https://aesthyrica.github.io/assets/Spos/screenshot1.png",
+                            "fullSizeURL": "https://aesthyrica.github.io/assets/Spos/screenshot1.png"
+                        }, 
+                        {
+                            "accessibilityText": "Showcase",
+                            "url": "https://aesthyrica.github.io/assets/Spos/screenshot2.png",
+                            "fullSizeURL": "https://aesthyrica.github.io/assets/Spos/screenshot2.png"
+                        }
+                    ],
+                    "ipad": {
+                        "itemCornerRadius": 9,
+                        "itemSize": "{320, 550.8266666666667}",
+                        "screenshots": [
+                            {
+                                "accessibilityText": "Showcase",
+                                "url": "https://aesthyrica.github.io/assets/Spos/screenshot1.png?size=640",
+                                "fullSizeURL": "https://aesthyrica.github.io/assets/Spos/screenshot1.png"
+                            },
+                            {
+                                "accessibilityText": "Showcase",
+                                "url": "https://aesthyrica.github.io/assets/Spos/screenshot2.png?size=640",
+                                "fullSizeURL": "https://aesthyrica.github.io/assets/Spos/screenshot2.png"
+                            }
+                        ],
+                        "class": "DepictionScreenshotView"
+                    },
+                    "class": "DepictionScreenshotsView"
+                },
+                {
+                    "markdown": "\n\n### Instructions\n\n- Download Live Album Artwork by long pressing on it.\r\n- Settings are in Spotify settings. \n\n- \n\n### Features\n\n- Artists & Playlists New UI\r\n- Artwork In Playlists\r\n- Car View Now Playing UI\r\n- Download Live Album Artwork\r\n- Disable Your Library Tab\r\n- Disable Tab Labels\r\n- Disable Genius\r\n- Disable Live Album Artwork\r\n- Disable Screenshot Banner\r\n- Disable Now Playing Bar\r\n- Home Quick Play\r\n- Liked Songs New UI\r\n- Music Import Section\r\n- Now Playing Music Sleep Timer\r\n- Now Playing Bar Improvements\r\n- Podcasts New UI\r\n- Real Shuffle\r\n- Show Statusbar Everywhere\r\n- Voice Search\r\n- What's New Section",
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "##  Unleash Your Spotify With Spos"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "title": "Latest Version",
+                    "class": "DepictionHeaderView"
+                },
+                {
+                    "title": "Version",
+                    "text": "2.4",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Released",
+                    "text": "10/15/19",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Price",
+                    "text": "Free",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Developer",
+                    "text": "aesthyrica",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Twitter",
+                    "action": "https://twitter.com/atebitsy",
+                    "class": "DepictionTableButtonView"
+                },
+                {
+                    "spacing": 16,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "spacing": 20,
+                    "class": "DepictionSpacerView"
+                }
+            ],
+            "class": "DepictionStackView"
+        },
+        {
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "title": "0.2-2",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "\t\n\u2022 Init release",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 4/30/19</small>",
+                    "useRawFormat": true,
+                    "class": "DepictionMarkdownView"
+                }
+            ],
+            "class": "DepictionStackView"
+        }
+    ],
+    "class": "DepictionTabView"
+}
