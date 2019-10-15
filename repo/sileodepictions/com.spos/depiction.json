@@ -1,6 +1,6 @@
 {
     "minVersion": "0.1",
-    "headerImage": "https://aesthyrica.github.io/assets/com.spos/header.png",
+    "headerImage": "https://aesthyrica.github.io/assets/com.spos/screenshot/header.png",
     "tintColor": "#F4C2D7",
     "tabs": [
         {
@@ -12,13 +12,13 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Showcase",
-                            "url": "https://aesthyrica.github.io/assets/com.spos/01.png",
-                            "fullSizeURL": "https://aesthyrica.github.io/assets/com.spos/01.png"
+                            "url": "https://aesthyrica.github.io/assets/com.spos/screenshot/01.png",
+                            "fullSizeURL": "https://aesthyrica.github.io/assets/com.spos/screenshot/01.png"
                         }, 
                         {
                             "accessibilityText": "Showcase",
-                            "url": "https://aesthyrica.github.io/assets/com.spos/02.png",
-                            "fullSizeURL": "https://aesthyrica.github.io/assets/com.spos/02.png"
+                            "url": "https://aesthyrica.github.io/assets/com.spos/screenshot/02.png",
+                            "fullSizeURL": "https://aesthyrica.github.io/assets/com.spos/screenshot/02.png"
                         }
                     ],
                     "ipad": {
@@ -27,13 +27,13 @@
                         "screenshots": [
                             {
                                 "accessibilityText": "Showcase",
-                                "url": "https://aesthyrica.github.io/assets/com.spos/03.png?size=640",
-                                "fullSizeURL": "https://aesthyrica.github.io/assets/com.spos/03.png"
+                                "url": "https://aesthyrica.github.io/assets/com.spos/screenshot/screenshot/03.png?size=640",
+                                "fullSizeURL": "https://aesthyrica.github.io/assets/com.spos/screenshot/03.png"
                             },
                             {
                                 "accessibilityText": "Showcase",
-                                "url": "https://aesthyrica.github.io/assets/com.spos/04.png?size=640",
-                                "fullSizeURL": "https://aesthyrica.github.io/assets/com.spos/04.png"
+                                "url": "https://aesthyrica.github.io/assets/com.spos/screenshot/04.png?size=640",
+                                "fullSizeURL": "https://aesthyrica.github.io/assets/com.spos/screenshot/04.png"
                             }
                         ],
                         "class": "DepictionScreenshotView"
