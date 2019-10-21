@@ -1,189 +1,311 @@
-<html nighteye="disabled" class="ios device-pixel-ratio-2 device-retina device-desktop device-macos">
-  <head>
-    <title>Spos for Spotify</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="white">
-    <link rel="stylesheet" href="./css/framework7.bundle.min.css">
-    <title></title>
-    <style>body {
-      cursor: default;
-      }
-      .unselectable {
-      -moz-user-select: -moz-none;
-      -khtml-user-select: none;
-      -webkit-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      }
-      .swiper-slide {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: #000;
-      width: 160;
-      }
-      .swiper-container {
-      height: 346;
-      margin: 0px 0 15px;
-      }
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charSet="utf-8" class="next-head" />
+    <meta charset="UTF-8" class="next-head" />
+    <title class="next-head">Spos for Spotify</title>
+    <meta name="description" content="Unleash Your Spotify Experience!" class="next-head" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" class="next-head" />
+    <link rel="icon" href="CydiaIcon.png" class="next-head" />
+    <meta property="og:url" content="" class="next-head" />
+    <meta property="og:image" content="" class="next-head" />
+    <meta property="og:image:width" content="1200" class="next-head" />
+    <meta property="og:image:height" content="630" class="next-head" />
+    <link rel="stylesheet" type="text/css" href="../../../files/assets/css/styles.css" class="next-head" />
+    <link rel="stylesheet" type="text/css" href="../../../files/assets/css/fa-regular.min.css" class="next-head" />
+    <link rel="stylesheet" type="text/css" href="../../../files/assets/css/fa-solid.min.css" class="next-head" />
+    <link rel="stylesheet" type="text/css" href="../../../files/assets/css/fontawesome.min.css" class="next-head" />
+    <link rel="stylesheet" type="text/css" href="../../web/index.css">
+    <style>
+        a,
+        .tint,
+        .table-btn:after {
+            color:
+        }
+        
+        .active {
+            color: ;
+            border-bottom: 2px solid;
+        }
     </style>
-    <style>.framework7-root {
-      height: 1980px;
-      }
-    </style>
-    <script src="https://kit.fontawesome.com/9c9214cc04.js"></script>
-    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
-  </head>
-  <body class="color-theme-red framework7-root">
-      <div class="page theme-dark">
-    <div class="statusbar"></div>
-    <div class="views">
-      <div class="view view-main unselectable view-init safe-areas">
-        <div class="page page-current" data-name="depiction">
-          <div class="page-content">
-            <div class="list media-list" style="margin: 10px 0px 0px;">
-              <ul>
-                <li>
-                  <div class="item-content">
-                    <div class="item-media"><img src="./screenshots/icon.png" width="60" height="60" style="border-radius: 6px;"></div>
-                    <div class="item-inner" style="position: relative; top: 7.5px;">
-                      <div class="item-title-row">
-                        <div class="item-title">Spos for Spotify</div>
-                      </div>
-                      <div class="item-subtitle">aesthyrica</div>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="list" style="margin: 10px 0px 20px;">
-              <ul>
-                <li>
-                  <a class="item-link item-content external" href="cydia://package/com.spos" target="_blank">
-                    <div class="item-media">
-                      <div style="width: 17px; display: flex; justify-content: center;"><i class="icon fas fa-box-open" aria-hidden="true"></i></div>
-                    </div>
-                    <div class="item-inner">
-                      <div class="item-title">Open in Cydia</div>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a class="item-link item-content external" href="sileo://package/com.spos" target="_blank">
-                    <div class="item-media">
-                      <div style="width: 17px; display: flex; justify-content: center;"><i class="icon fas fa-ring" aria-hidden="true"></i></div>
-                    </div>
-                    <div class="item-inner">
-                      <div class="item-title">Open in Sileo</div>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a class="item-link item-content external" href="zbra://package/com.spos" target="_blank">
-                    <div class="item-media">
-                      <div style="width: 17px; display: flex; justify-content: center;"><i class="icon fas fa-feather aria-hidden="true"></i></div>
-                    </div>
-                    <div class="item-inner">
-                      <div class="item-title">Open in Zebra</div>
-                    </div>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="block block-strong" style="margin: 10px 0px -25px; --f7-block-strong-bg-color: #121212; --f7-block-strong-text-color: #ffffff">
-              <center>Compatible with all devices running iOS 11 and later.</center>
-            </div>
-            <div class="block block-strong">
-              <center>Requires Spotify app from <a class="link external" href="https://apps.apple.com/us/app/spotify-get-music-and-podcasts/id324684580" target="_blank">AppStore</a>.</center>
-            </div>
-            <div class="swiper-container swiper-container-initialized swiper-container-horizontal">
-              <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(880px, 0px, 0px);">
-                <div class="swiper-slide swiper-slide-active" style="margin-right: 10px;"><img src="https://repo-cdn.dynastic.co/217314677011513345.b3cd0b9b2aec94eb9575568cd468d775-750" width="160" height="346" style="border-radius: 6px;"></div>
-                <div class="swiper-slide swiper-slide-next" style="margin-right: 10px;"><img src="https://repo-cdn.dynastic.co/217276333477068801.541f056f8c63ab471400732ad84cc601-750" width="160" height="346" style="border-radius: 6px;"></div>
-                <div class="swiper-slide" style="margin-right: 10px;"><img src="https://repo-cdn.dynastic.co/217276283959115777.72b21f51335b532c9db3c4fb1a67ca53-750" width="160" height="346" style="border-radius: 6px;"></div>
-                <div class="swiper-slide" style="margin-right: 10px;"><img src="https://repo-cdn.dynastic.co/217276199812988929.5bef178f77da8de5a7329d3b28d7ea31-750" width="160" height="346" style="border-radius: 6px;"></div>
-              </div>
-              <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-            </div>
-            <div class="block-title"><span>Description  </span></div>
-            <div class="block block-strong"><span>Spos not only gives you the features that are missing from Spotify, but it also gives you full control over the app.</span></div>
-            <div class="block-title"><span>Features</span></div>
-            <div class="block block-strong"><span>• Artists & Playlists New UI<br>• Artwork In Playlists<br>• Artwork In Liked Songs<br>• Car View Now Playing UI<br>• Download Canvas Visuals<br>• Disable Your Library Tab<br>• Disable Tab Labels<br>• Disable Genius<br>• Disable Canvas Visuals<br>• Disable Screenshot Banner<br>• Disable Now Playing Bar<br>• Home Quick Play<br>• Home Music Downloads Section<br>• Import Music<br>• Now Playing Music Sleep Timer<br>• Now Playing Bar Improvements<br>• Podcasts New UI<br>• Real Shuffle<br>• Show Statusbar Everywhere<br>• Voice Search<br>• Verified Profile<br>• Whats New Section<br></span></div>
-            <div class="block-title"><span>Latest changes</span></div>
-            <div class="block block-strong"><span>• Artwork In Liked Songs<br></span></div>
-            <div class="list" style="margin: -36px 0px 0px;">
-              <ul>
-                <li>
-                  <a class="item-link item-content external" href="./changelogs/spos.changelog.html" target="_blank">
-                    <div class="item-media">
-                      <div style="width: 17px; display: flex; justify-content: center;"><i class="icon fas fa-clock" aria-hidden="true"></i></div>
-                    </div>
-                    <div class="item-inner">
-                      <div class="item-title">Changelog</div>
-                    </div>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="block-title"><span>Information</span></div>
-            <div class="list">
-              <ul>
-                <li>
-                  <div class="item-content">
-                    <div class="item-inner">
-                      <div class="item-title"><span>Version</span></div>
-                      <div class="item-after"><span>2.5.1</span></div>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="item-content">
-                    <div class="item-inner">
-                      <div class="item-title"><span>Released</span></div>
-                      <div class="item-after"><span>1 week ago</span></div>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="block-title"><span>Links</span></div>
-            <div class="list">
-              <ul>
-                <li>
-                  <a class="item-link item-content external" href="https://www.paypal.com/" target="_blank">
-                    <div class="item-media">
-                      <div style="width: 17px; display: flex; justify-content: center;"><i class="icon fab fa-paypal" aria-hidden="true"></i></div>
-                    </div>
-                    <div class="item-inner">
-                      <div class="item-title">Contribute using <span style="font-style: italic; font-weight: bold;"><span style="color: #253b80;">Pay</span><span style="color: #419bd7;">Pal</span></span></div>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a class="item-link item-content external" href="https://twitter.com/atebitsy" target="_blank">
-                    <div class="item-media">
-                      <div style="width: 17px; display: flex; justify-content: center;"><i class="icon fab fa-twitter" aria-hidden="true"></i></div>
-                    </div>
-                    <div class="item-inner">
-                      <div class="item-title">Twitter</div>
-                    </div>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <script type="text/javascript" src="./js/framework7.bundle.min.js"></script><script>var app =new Framework7({'theme': 'ios'});
-      var swiper = app.swiper.create('.swiper-container', {
-        speed: 400,
-        spaceBetween: 10,
-        slidesPerView: 'auto',
-        centeredSlides: true
-      });
+    <script src="../../web/index.js"></script>
+    <meta name="description" content="Enables Spotify&#x27;s hidden features.">
+    <meta property="og:title" content="Spos for Spotify">
+    <meta property="og:description" content="Enables Spotify&#x27;s hidden features.">
+    <meta property="og:image" content="../../../files/assets/com.spos/banner.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Spos for Spotify">
+    <meta name="twitter:description" content="A package by aesthyrica for iOS 9.0 to Unknown.">
+    <meta name="twitter:image" content="https://aesthyrica.github.io/repo/assets/com.spos/banner.png">
+    <meta name="theme-color" content="">
+    <script>
+        compatible("9.0", "Unknown", "iOS 9.0 to Unknown");
+        externalize()
     </script>
-  </body>
+    <style id="__jsx-1456027835">
+        body {
+            -webkit-text-size-adjust: none;
+            -webkit-touch-callout: none;
+            -webkit-user-select: text;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            margin: 9px auto;
+            width: 100vw;
+            max-width: 414px !important;
+            background-color: #f4f4f4;
+            min-font-size: 13px;
+            text-align: center;
+            font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+        }
+        
+        .package-screenshots {
+            text-align: center;
+            height: 100%;
+            margin-left: -3%;
+            margin-right: -3%;
+        }
+        
+        .screenshot {
+            text-align: center;
+            display: inline-block;
+            margin: auto;
+            width: 100% !important;
+            height: auto !important;
+        }
+        
+        .screenshotContainer {
+            width: 44%;
+            display: inline-block;
+            text-align: center;
+            margin: 3%;
+        }
+        
+        .screenshot-viewer {
+            overflow: -moz-scrollbars-none;
+            overflow: scroll;
+            overflow-x: auto;
+            overflow-y: hidden;
+            -webkit-overflow-scrolling: touch;
+            overflow-scrolling: touch;
+            width: auto;
+            min-width: 100%;
+            white-space: nowrap;
+            margin-left: -6px;
+            margin-right: -6px;
+            padding-left: 6px;
+            padding-right: 6px;
+            list-style: none;
+            margin-top: 15px;
+            -ms-overflow-style: none;
+        }
+        
+        .screenshot-viewer::-webkit-scrollbar {
+            display: none;
+        }
+        
+        .changes-more {
+            margin-right: -20px;
+            margin-left: -20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 12px;
+            width: 100%;
+            display: block;
+            margin-top: 0px;
+            margin-bottom: -12px;
+            text-decoration: none !important;
+            -webkit-background-clip: text;
+            margin-top: 0px;
+        }
+        
+        .changes-more label {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 0;
+            text-decoration: none !important;
+            color: #484848;
+            -webkit-letter-spacing: 0.5px;
+            -moz-letter-spacing: 0.5px;
+            -ms-letter-spacing: 0.5px;
+            letter-spacing: 0.5px;
+            -webkit-background-clip: text;
+            background: linear-gradient(90deg, #202124, #282C2F);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+        
+        .fading-sep {
+            margin-top: 10px;
+            height: 1px;
+            background: linear-gradient(90deg, white, #dddddd, white);
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        .sf-text {
+            font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        }
+        
+        .green-gradient {
+            background: linear-gradient(90deg, #202124, #282C2F) !important;
+        }
+        
+        .restrict-detail>span {
+            display: block;
+            padding-bottom: 7px;
+        }
+        
+        .restrict-detail>span:last-child {
+            padding-bottom: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div id="__next">
+            <div data-reactroot="">
+                <div class="jsx-1456027835">
+                    <div class="jsx-1456027835">
+                        <div class="jsx-1456027835 contents-container">
+                            <panel class="jsx-1456027835 modern">
+                                <panel-header className="jsx-1456027835">
+                                    <label class="jsx-1456027835">Description</label>
+                                </panel-header>
+                                <panel-body style="font-size:14px" className="jsx-1456027835">
+                                    <div class="jsx-1456027835 package-description">
+                                        <h2>Spos for Spotify</h2>
+                                        <p class="compatibility"><b>Compatibility: </b>This package is compatible with iOS 9.0 to 12.4.</p>
+                                        <br>
+                                        <p>
+                                            <p>Unleash Your Spotify Experience!</p>
+                                        </p>
+                                        <ul>
+                                            <li>Artists & Playlists New UI</li>
+                                            <li>Artwork In Playlists</li>
+                                            <li>Artwork In Liked Songs</li>
+                                            <li>Car View Now Playing UI</li>
+                                            <li>Download Canvas Visuals</li>
+                                            <li>Disable Your Library Tab</li>
+                                            <li>Disable Tab Labels</li>
+                                            <li>Disable Genius</li>
+                                            <li>Disable Canvas Visuals</li>
+                                            <li>Disable Screenshot Banner</li>
+                                            <li>Disable Now Playing Bar</li>
+                                            <li>Home Quick Play</li>
+                                            <li>Home Music Downloads Section</li>
+                                            <li>Music Import Section</li>
+                                            <li>Now Playing Music Sleep Timer</li>
+                                            <li>Now Playing Bar Improvements </li>
+                                            <li>Podcasts New UI</li>
+                                            <li>Real Shuffle</li>
+                                            <li>Show Statusbar Everywhere</li>
+                                            <li>Voice Search</li>
+                                            <li>Verified Profile</li>
+                                            <li>What's New Section</li>
+                                        </ul>
+                                    </div>
+                                    <div class="jsx-1456027835 fading-sep"></div><a target="_blank" href="../../assets/com.spos/changes.html" class="jsx-1456027835 changes-more"><label class="jsx-1456027835">Changelog</label></a>
+                                </panel-body>
+
+
+
+
+
+                            </panel-body>
+                        </panel>
+                        <panel class="jsx-1456027835 modern">
+                                <panel-header className="jsx-1456027835">
+                                        <label class="jsx-1456027835 changelog-title">Screenshots</label>
+                                     </panel-header>
+                           </panel-header>
+                           <panel-body style="padding-top:13px;padding-bottom:13px" className="jsx-1456027835">
+                              <table cols="2" border="0" class="jsx-1456027835 information">
+                                 <tbody class="jsx-1456027835"></tbody>
+                                    <tr class="jsx-3269109252">
+                                        <div class="jsx-1456027835">
+                                            <ul class="jsx-1456027835 screenshot-viewer">
+                                                <div class="scroll_view"><img class="img_card" src="../../assets/com.spos/screenshot/01.png"><img class="img_card" src="../../assets/com.spos/screenshot/02.png"><img class="img_card" src="../../assets/com.spos/screenshot/03.png"><img class="img_card" src="../../assets/com.spos/screenshot/04.png"></div>
+                                            </ul>
+                                        </div>
+                                 </tbody>
+                              </table>
+                           </panel-body>
+
+
+
+
+
+
+
+
+
+            </div></span>
+
+                                </panel-body>
+                            </panel>
+                            <panel class="jsx-1456027835 modern">
+                                <panel-header className="jsx-1456027835">
+                                    <label class="jsx-1456027835 changelog-title">Known Issues</label>
+                                </panel-header>
+                                </panel-header>
+                                <panel-body style="padding-top:13px;padding-bottom:13px" className="jsx-1456027835">
+                                    <table cols="2" border="0" class="jsx-1456027835 information">
+                                        <tbody class="jsx-1456027835">
+                                            <tr class="jsx-3269109252">
+                                                <p>As apps update, features may break due to required code being removed or changed. Not all features can or will be restored with a tweak update.</p>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </panel-body>
+
+                                </panel-body>
+                            </panel>
+                            <panel class="jsx-1456027835 modern">
+                                <panel-header className="jsx-1456027835">
+                                    <label class="jsx-1456027835">Information</label>
+                                </panel-header>
+                                <panel-body style="padding-top:13px;padding-bottom:13px" className="jsx-1456027835">
+                                    <table cols="2" border="0" class="jsx-1456027835 information">
+                                        <tbody class="jsx-1456027835">
+                                            <tr class="jsx-1456027835">
+                                                <td class="jsx-1456027835">Developer</td>
+                                                <td class="jsx-1456027835">aesthyrica</td>
+                                            </tr>
+                                            <tr class="jsx-3269109252">
+                                                <td class="jsx-3269109252">Dependencies</td>
+                                                <td class="jsx-3269109252">None</td>
+                                            </tr>
+                                            <tr class="jsx-1456027835">
+                                                <td class="jsx-1456027835">Compatibility</td>
+                                                <td class="jsx-1456027835">Spotify v8.5.27 or later</td>
+                                            </tr>
+                                            <tr class="jsx-1456027835">
+                                                <td class="jsx-1456027835">Version</td>
+                                                <td class="jsx-1456027835">2.5.1</td>
+                                            </tr>
+                                            <tr class="jsx-3269109252">
+                                                <td class="jsx-3269109252">Updated</td>
+                                                <td class="jsx-3269109252">October 19, 2019</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </panel-body>
+
+                            </panel>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="__next-error"></div>
+    </div>
+</body>
+
 </html>
