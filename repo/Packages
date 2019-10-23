@@ -13,7 +13,7 @@ SHA256: 782228f11ac9d6b03f476fc60d2c6eaa8f01b9fad8b06f0903d196ffa6ba4138
 Section: Tweaks
 Description: Download Canvas Visuals from Spotify.
 Author: aesthyrica
-Depiction: https://aesthyrica.github.io/repo/depiction/web/com.canvasvisualsdl.html
+Depiction: https://aesthyrica.github.io/repo/depictions/canvasvisuals.repo.depiction.html
 Name: Canvas Visuals DL
 
 Package: com.spos
@@ -31,7 +31,7 @@ SHA256: b1b63839dc08656c997f14443d44a427b5d0e8acaf1a02266684a733e2dfdc5d
 Section: Tweaks
 Description: Unleash Your Spotify Experience!
 Author: aesthyrica
-Depiction: https://aesthyrica.github.io/repo/depiction/web/com.spos.html
+Depiction: https://aesthyrica.github.io/repo/depictions/spos.repo.depiction.html
 Name: Spos for Spotify
 
 Package: com.spos
@@ -49,6 +49,6 @@ SHA256: 0ba2c23b9f9c7fa800b7c24ff653e75b99badefaf2266262c2c6acb6ea69cbad
 Section: Tweaks
 Description: Unleash Your Spotify Experience!
 Author: aesthyrica
-Depiction: https://aesthyrica.github.io/repo/depiction/web/com.spos.html
+Depiction: https://aesthyrica.github.io/repo/depictions/spos.repo.depiction.html
 Name: Spos for Spotify
 
