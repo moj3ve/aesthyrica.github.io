@@ -5,7 +5,7 @@ Maintainer: aesthyrica
 Installed-Size: 364
 Depends: mobilesubstrate
 Conflicts: com.spos
-Filename: debs/com.canvasvisualsdl_1.0_iphoneos-arm.deb
+Filename: ./debs/com.canvasvisualsdl_1.0_iphoneos-arm.deb
 Size: 64870
 MD5sum: 184d7527231efafcc951bba3ba07e71b
 SHA1: ae3652ab20136edb4d526500f60272a182a5cdf5
@@ -23,7 +23,7 @@ Maintainer: aesthyrica
 Installed-Size: 476
 Depends: mobilesubstrate
 Conflicts: beta.spos
-Filename: debs/com.spos_2.5_iphoneos-arm.deb
+Filename: ./debs/com.spos_2.5_iphoneos-arm.deb
 Size: 89738
 MD5sum: c88b43cd639045f7102abb1581061222
 SHA1: d936da4058de64d4cde3845d5de763fe3035a8fc
@@ -41,11 +41,29 @@ Maintainer: aesthyrica
 Installed-Size: 476
 Depends: mobilesubstrate
 Conflicts: beta.spos
-Filename: debs/com.spos_2.5.1_iphoneos-arm.deb
+Filename: ./debs/com.spos_2.5.1_iphoneos-arm.deb
 Size: 90540
 MD5sum: e993b0597e2978ce82da858f54d1ff31
 SHA1: 24416c532e76315ffab140db2e7e0e6f0ae1ef2e
 SHA256: 0ba2c23b9f9c7fa800b7c24ff653e75b99badefaf2266262c2c6acb6ea69cbad
+Section: Tweaks
+Description: Unleash Your Spotify Experience!
+Author: aesthyrica
+Depiction: https://aesthyrica.github.io/repo/depictions/spos.repo.depiction.html
+Name: Spos for Spotify
+
+Package: com.spos
+Version: 2.5.3
+Architecture: iphoneos-arm
+Maintainer: aesthyrica
+Installed-Size: 476
+Depends: mobilesubstrate
+Conflicts: beta.spos
+Filename: ./debs/com.spos_2.5.3_iphoneos-arm.deb
+Size: 91060
+MD5sum: 723ac020384bbaab9ad20633d0cc9040
+SHA1: a35a258ee9a5b2a843a98a3225afd01ee7f4bff5
+SHA256: 7fd8665585c179dc425f3e898d51f045b82db106b2e183b69fb5f77a5cb8cad5
 Section: Tweaks
 Description: Unleash Your Spotify Experience!
 Author: aesthyrica
