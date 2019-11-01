@@ -5,14 +5,14 @@ Maintainer: aesthyrica
 Installed-Size: 364
 Depends: mobilesubstrate
 Filename: ./debs/com.canvas_1.0_iphoneos-arm.deb
-Size: 66018
-MD5sum: 6ad270c754860fca38b2604325b6671a
-SHA1: 8e0085c98b64dda44368c2eb7e8a1a73bfecee96
-SHA256: 3612a99a508c6c51f7479f273a3815f9fd6249730ae135fbe00053135c12b79d
+Size: 66174
+MD5sum: 000cb5f302f6576b3e247f71e57436ba
+SHA1: 55e5e7aeddaa940d2a57b7a2263d94c082539981
+SHA256: 88e768379eeb63158b0c2ac448cd82cd50bffc19c4b37a1c2e4ee2a647844df3
 Section: Tweaks
 Description: Long-Press on any Canvas to download it.
 Author: aesthyrica
-Depiction: https://aesthyrica.github.io/repo/depictions/canvas.repo.depiction.html
+Depection: https://aesthyrica.github.io/repo/depiction/web/canvas.repo.depiction.html
 Name: Canvas
 
 Package: com.spos
@@ -30,7 +30,7 @@ SHA256: b1b63839dc08656c997f14443d44a427b5d0e8acaf1a02266684a733e2dfdc5d
 Section: Tweaks
 Description: Unleash Your Spotify Experience!
 Author: aesthyrica
-Depiction: https://aesthyrica.github.io/repo/depictions/spos.repo.depiction.html
+Depiction: https://aesthyrica.github.io/repo/depiction/web/spos.repo.depiction.html
 Name: Spos for Spotify
 
 Package: com.spos
@@ -48,7 +48,7 @@ SHA256: 0ba2c23b9f9c7fa800b7c24ff653e75b99badefaf2266262c2c6acb6ea69cbad
 Section: Tweaks
 Description: Unleash Your Spotify Experience!
 Author: aesthyrica
-Depiction: https://aesthyrica.github.io/repo/depictions/spos.repo.depiction.html
+Depiction: https://aesthyrica.github.io/repo/depiction/web/spos.repo.depiction.html
 Name: Spos for Spotify
 
 Package: com.spos
@@ -82,6 +82,6 @@ SHA256: aa8eac0caa05efa4c6ccc21f02d31022c4e685d001aa31d7684b72017577e026
 Section: Tweaks
 Description: Unleash Your Spotify Experience!
 Author: aesthyrica
-Depiction: https://aesthyrica.github.io/repo/depictions/spos.repo.depiction.html
+Depiction: https://aesthyrica.github.io/repo/depiction/web/spos.repo.depiction.html
 Name: Spos for Spotify
 
