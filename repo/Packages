@@ -1,20 +1,19 @@
-Package: com.canvasvisualsdl
+Package: com.canvas
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: aesthyrica
 Installed-Size: 364
 Depends: mobilesubstrate
-Conflicts: com.spos
-Filename: ./debs/com.canvasvisualsdl_1.0_iphoneos-arm.deb
-Size: 64870
-MD5sum: 184d7527231efafcc951bba3ba07e71b
-SHA1: ae3652ab20136edb4d526500f60272a182a5cdf5
-SHA256: 782228f11ac9d6b03f476fc60d2c6eaa8f01b9fad8b06f0903d196ffa6ba4138
+Filename: ./debs/com.canvas_1.0_iphoneos-arm.deb
+Size: 66018
+MD5sum: 6ad270c754860fca38b2604325b6671a
+SHA1: 8e0085c98b64dda44368c2eb7e8a1a73bfecee96
+SHA256: 3612a99a508c6c51f7479f273a3815f9fd6249730ae135fbe00053135c12b79d
 Section: Tweaks
-Description: Download Canvas Visuals from Spotify.
+Description: Long-Press on any Canvas to download it.
 Author: aesthyrica
-Depiction: https://aesthyrica.github.io/repo/depictions/canvasvisuals.repo.depiction.html
-Name: Canvas Visuals DL
+Depiction: https://aesthyrica.github.io/repo/depictions/canvas.repo.depiction.html
+Name: Canvas
 
 Package: com.spos
 Version: 2.5
@@ -53,17 +52,33 @@ Depiction: https://aesthyrica.github.io/repo/depictions/spos.repo.depiction.html
 Name: Spos for Spotify
 
 Package: com.spos
+Version: 2.5.2
+Architecture: iphoneos-arm
+Maintainer: aesthyrica
+Installed-Size: 476
+Depends: mobilesubstrate
+Filename: ./debs/com.spos_2.5.2_iphoneos-arm.deb
+Size: 91856
+MD5sum: 9f7cb2b897cb45deb7d772ea7756d446
+SHA1: 06c0f64c158ac9407a82444e443767e9b8f1552b
+SHA256: f6cb01045d99fb056153ef8202bc0af70579ab7f4354ea1fb402d090a4e377c0
+Section: Tweaks
+Description: Unleash Your Spotify Experience!
+Author: aesthyrica
+Depiction: https://aesthyrica.github.io/repo/depictions/spos.repo.depiction.html
+Name: Spos for Spotify
+
+Package: com.spos
 Version: 2.5.3
 Architecture: iphoneos-arm
 Maintainer: aesthyrica
 Installed-Size: 476
 Depends: mobilesubstrate
-Conflicts: beta.spos
 Filename: ./debs/com.spos_2.5.3_iphoneos-arm.deb
-Size: 91060
-MD5sum: 723ac020384bbaab9ad20633d0cc9040
-SHA1: a35a258ee9a5b2a843a98a3225afd01ee7f4bff5
-SHA256: 7fd8665585c179dc425f3e898d51f045b82db106b2e183b69fb5f77a5cb8cad5
+Size: 91798
+MD5sum: 1de59b7dc81b939b3c99262c7208a886
+SHA1: 3216dd37532e33170dd6f2f5b7ec273f0a1bd0db
+SHA256: aa8eac0caa05efa4c6ccc21f02d31022c4e685d001aa31d7684b72017577e026
 Section: Tweaks
 Description: Unleash Your Spotify Experience!
 Author: aesthyrica
