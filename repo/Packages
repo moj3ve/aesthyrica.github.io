@@ -5,10 +5,10 @@ Maintainer: aesthyrica
 Installed-Size: 364
 Depends: mobilesubstrate
 Filename: ./debs/com.canvas_1.0_iphoneos-arm.deb
-Size: 65488
-MD5sum: 863642de47ae559834e3d2e219869d4c
-SHA1: 6eb0f228addb1d2da6559d7ca8b23f9a90d7869f
-SHA256: da0d2b504d68de934494f3853211ec75680118e72715d9f49bf5edb5faefbeaa
+Size: 65522
+MD5sum: c414c9738a82d57b88ffbf8f045f5efb
+SHA1: 8f44b1ac8c64efa21b300b41663f252a3145b321
+SHA256: eafdee3e6a8b04e36013fb6741c41b2a5c0f89f08e953977a12a910ce7f7aef8
 Section: Tweaks
 Description: Long-Press on any Canvas to download it.
 Author: aesthyrica
