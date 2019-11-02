@@ -12,7 +12,7 @@ SHA256: eafdee3e6a8b04e36013fb6741c41b2a5c0f89f08e953977a12a910ce7f7aef8
 Section: Tweaks
 Description: Long-Press on any Canvas to download it.
 Author: aesthyrica
-Depection: https://aesthyrica.github.io/repo/depiction/web/canvas.repo.depiction.html
+Depiction: https://aesthyrica.github.io/repo/depiction/web/canvas.repo.depiction.html
 Name: Canvas
 
 Package: com.spos
