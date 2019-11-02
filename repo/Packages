@@ -30,7 +30,7 @@ SHA256: b1b63839dc08656c997f14443d44a427b5d0e8acaf1a02266684a733e2dfdc5d
 Section: Tweaks
 Description: Unleash Your Spotify Experience!
 Author: aesthyrica
-Depiction: https://aesthyrica.github.io/repo/depictions/spos.repo.depiction.html
+Depiction: https://aesthyrica.github.io/repo/depiction/web/spos.repo.depiction.html
 Name: Spos for Spotify
 
 Package: com.spos
@@ -48,7 +48,7 @@ SHA256: 0ba2c23b9f9c7fa800b7c24ff653e75b99badefaf2266262c2c6acb6ea69cbad
 Section: Tweaks
 Description: Unleash Your Spotify Experience!
 Author: aesthyrica
-Depiction: https://aesthyrica.github.io/repo/depictions/spos.repo.depiction.html
+Depiction: https://aesthyrica.github.io/repo/depiction/web/spos.repo.depiction.html
 Name: Spos for Spotify
 
 Package: com.spos
@@ -65,7 +65,7 @@ SHA256: f6cb01045d99fb056153ef8202bc0af70579ab7f4354ea1fb402d090a4e377c0
 Section: Tweaks
 Description: Unleash Your Spotify Experience!
 Author: aesthyrica
-Depiction: https://aesthyrica.github.io/repo/depictions/spos.repo.depiction.html
+Depiction: https://aesthyrica.github.io/repo/depictionn/web/spos.repo.depiction.html
 Name: Spos for Spotify
 
 Package: com.spos
@@ -82,6 +82,6 @@ SHA256: aa8eac0caa05efa4c6ccc21f02d31022c4e685d001aa31d7684b72017577e026
 Section: Tweaks
 Description: Unleash Your Spotify Experience!
 Author: aesthyrica
-Depiction: https://aesthyrica.github.io/repo/depictions/spos.repo.depiction.html
+Depiction: https://aesthyrica.github.io/repo/depiction/web/spos.repo.depiction.html
 Name: Spos for Spotify
 
